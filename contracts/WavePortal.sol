@@ -10,14 +10,10 @@ contract WavePortal {
 
     Input[] private inputs;
 
-    constructor() {
-        console.log("Hello World xD");
-    }
+    constructor() {}
 
     function createInput(string calldata text) public {
         inputs.push(Input(text, msg.sender));
-
-        console.log("%s says hello!", msg.sender);
     }
 
     function getInputs() public view returns (Input[] memory) {

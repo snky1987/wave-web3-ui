@@ -80,7 +80,6 @@
 
 // style for the profile page
 .profile-page{
-
     .page-header{
         min-height: 500px;
     }
@@ -146,6 +145,14 @@
         img{
             margin-bottom: 30px;
         }
+    }
+
+    .position-center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+        height: 100%;
     }
 
     .gallery{
